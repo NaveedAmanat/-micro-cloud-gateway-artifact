@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: service-registry
+  name: cloud-gateway
   namespace: argocd
 spec:
   project: default
 
   source:
-    repoURL: https://github.com/NaveedAmanat/micro-service-registry-artifact.git
+    repoURL: https://github.com/NaveedAmanat/-micro-cloud-gateway-artifact.git
     targetRevision: HEAD
     path: devolpment
   destination:
