@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/NaveedAmanat/-micro-cloud-gateway-artifact.git
+    repoURL: https://github.com/NaveedAmanat/micro-cloud-gateway-artifact.git
     targetRevision: HEAD
     path: devolpment
   destination:
