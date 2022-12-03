@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cloud-gateway-app
-          image: naveed0004/cloud-gateway:latest
+          image: naveed0004/cloud-gateway:2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9191
